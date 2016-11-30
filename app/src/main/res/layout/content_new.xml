@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_new"
+    android:padding="5dp">
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:textColor="@color/colorPrimary"
+        android:background="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Enter the text"
+        android:background="@drawable/back"
+        android:textSize="25sp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="85dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
